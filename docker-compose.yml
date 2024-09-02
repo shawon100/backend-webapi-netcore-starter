@@ -1,0 +1,7 @@
+version: "2"
+services:
+  app:
+    build: ./
+    container_name: dotnetcore-webapi
+    ports:
+      - "5000:80"
